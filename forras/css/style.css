@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap');
+
 :root{
     --vKek: #1283b9;
     --sKek: #06435f;
@@ -29,4 +31,25 @@ nav{
 
 nav ul li a:active{
     background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1, h2, footer{
+    font-family: "Marhey", sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-shadow: 5px 5px 10px black;
+}
+
+h2{
+    text-transform: capitalize;
+    text-decoration: wavy;
+}
+
+@media only screen and (max-width: 992px) {
+    h1{
+        font-size: 1.5rem;
+    }    
 }
